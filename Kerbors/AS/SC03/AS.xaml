@@ -1,0 +1,27 @@
+﻿<Window x:Class="SC03.AS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SC03"
+        mc:Ignorable="d"
+        Title="AS" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="329*"/>
+            <ColumnDefinition Width="463*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="发送明文" HorizontalAlignment="Left" Height="185" Margin="57,22,0,0" VerticalAlignment="Top" Width="262">
+            <TextBox  Name="TextBox2" HorizontalAlignment="Left" Height="124" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        </GroupBox>
+        <GroupBox Header="接收明文" HorizontalAlignment="Left" Height="185" Margin="10,22,0,0" VerticalAlignment="Top" Width="230" Grid.Column="1">
+            <TextBox Name="TextBox3" HorizontalAlignment="Left" Height="125" Margin="0,0,-2,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" />
+        </GroupBox>
+        <GroupBox Header="发送密文" HorizontalAlignment="Left" Height="153" Margin="60,212,0,0" VerticalAlignment="Top" Width="262"/>
+        <TextBox Name="TextBox4" HorizontalAlignment="Left" Height="122" Margin="69,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="524" Grid.ColumnSpan="2"/>
+        <GroupBox  Header="Log日志" HorizontalAlignment="Left" Height="368" Margin="269,22,0,0" VerticalAlignment="Top" Width="168" Grid.Column="1">
+            <TextBox  Name="TextBox1"  HorizontalAlignment="Left" Height="331" Margin="10,10,-2,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" />
+        </GroupBox>
+        <Button Grid.ColumnSpan="2" Content="开始监听" HorizontalAlignment="Left" Height="53" Margin="305,359,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0.789,0.508" Click="button_Click"/>
+    </Grid>
+</Window>

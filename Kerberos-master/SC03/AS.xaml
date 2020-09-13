@@ -1,0 +1,32 @@
+﻿<Window x:Class="SC03.AS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SC03"
+        mc:Ignorable="d"
+        Title="AS" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="329*"/>
+            <ColumnDefinition Width="463*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Key:" HorizontalAlignment="Left" Margin="60,10,0,0" VerticalAlignment="Top" Height="30" Width="40" RenderTransformOrigin="0.575,0.867"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="122,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="455" Grid.ColumnSpan="2" />
+        <GroupBox Header="发送明文" HorizontalAlignment="Left" Height="149" Margin="60,63,0,0" VerticalAlignment="Top" Width="262">
+            <TextBox HorizontalAlignment="Left" Height="124" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        </GroupBox>
+        <GroupBox Header="接收明文" HorizontalAlignment="Left" Height="149" Margin="18,63,0,0" VerticalAlignment="Top" Width="230" Grid.Column="1">
+            <TextBox HorizontalAlignment="Left" Height="125" Margin="0,0,-2,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        </GroupBox>
+        <GroupBox Header="发送密文" HorizontalAlignment="Left" Height="153" Margin="60,237,0,0" VerticalAlignment="Top" Width="262"/>
+        <GroupBox Header="接收密文" HorizontalAlignment="Left" Height="153" Margin="18,237,0,0" VerticalAlignment="Top" Width="230" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="119" Margin="72,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238"/>
+        <TextBox HorizontalAlignment="Left" Height="119" Margin="33,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Grid.Column="1"/>
+        <GroupBox Header="Log日志" HorizontalAlignment="Left" Height="368" Margin="269,22,0,0" VerticalAlignment="Top" Width="168" Grid.Column="1">
+            <TextBox HorizontalAlignment="Left" Height="331" Margin="10,10,-2,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        </GroupBox>
+
+
+    </Grid>
+</Window>
