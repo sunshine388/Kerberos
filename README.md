@@ -1,4 +1,4 @@
-用kerberos实现的小说阅读器  
+说明：用kerberos实现的小说阅读器  
    
 环境：win10  
 开发工具：VS  
