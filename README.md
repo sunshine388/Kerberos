@@ -8,10 +8,10 @@ Kerberos是一种计算机网络授权协议，用来在非安全网络中，对
 这是一个基于kerberos实现的小说阅读器。  
  
 目录说明：   
-├── Readme.md                   // help
-├── Kerberos-master             // client
-├── Kerbors
-│   ├── AS                      //KDC认证中心
-│   ├── Vserver1             //应用服务器
+├── Readme.md  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  // help  
+├── Kerberos-master      &nbsp;&nbsp;&nbsp;&nbsp;      // client  
+├── Kerbors  
+│   ├── AS     &nbsp;&nbsp;&nbsp;&nbsp;     //KDC认证中心  
+│   ├── Vserver1   &nbsp;&nbsp;&nbsp;&nbsp;         //应用服务器  
                    
 
