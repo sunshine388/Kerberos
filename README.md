@@ -8,7 +8,7 @@ Kerberos是一种计算机网络授权协议，用来在非安全网络中，对
   
  
 目录说明：   
-├── Readme.md  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ help  
+├── Readme.md  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// help  
 ├── Kerberos-master      &nbsp;&nbsp;&nbsp;&nbsp;      // client  
 ├── Kerbors  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── AS  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //KDC认证中心  
